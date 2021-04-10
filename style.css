@@ -4,6 +4,14 @@
   font-family: "Poppins", sans-serif !important;
 }
 
+.oops {
+  font-size: 5rem;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+  margin-top: 10%;
+}
+
 #header {
   text-align: center;
   margin-top: 2.5%;

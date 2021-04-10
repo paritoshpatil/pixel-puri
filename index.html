@@ -11,9 +11,24 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
+
+    <script language="JavaScript">
+      var password;
+
+      var pass = "chai@sunsetwithyou";
+
+      password = prompt("What? When? Where?", " ");
+
+      if (password == pass) alert("Password Correct! Click OK to enter!");
+      else {
+        window.location = "invalid.html";
+      }
+
+      //-->
+    </script>
   </head>
   <body>
-    <div class="container mx-auto pd-4" background-color="red">
+    <div class="container mx-auto pd-4">
       <div id="header">
         <p class="text-4xl">Pixel-Puri</p>
       </div>
