@@ -54,6 +54,27 @@
   text-align: center;
 }
 
+.extra-button {
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-style: italic;
+  background-color: black;
+  color: white;
+  padding: 2px 20px; 
+  margin-top: 2rem;
+  border-radius: 1rem;
+
+  background: linear-gradient(to right, #40E0D0,#FF8C00,#FF0080);
+  background-size: 200% 200%;
+  animation: rainbow 2s ease-in-out infinite;
+  transition: color .2s ease-in-out;
+}
+
+.extra-button:hover {
+  background: black;
+  color: white;
+}
+
 .photo-container:hover .image {
   opacity: 0.25;
 }
