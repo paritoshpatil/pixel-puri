@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700,800;0&display=swap");
 
 :root {
   font-family: "Poppins", sans-serif !important;
@@ -7,12 +7,30 @@
 #header {
   text-align: center;
   margin-top: 2.5%;
-  margin-bottom: 5%;
+  margin-bottom: 2.5%;
+  width: 100%;
 }
 
-#header p {
-  font-weight: 700;
-  font-size: 3rem;
+.header-text {
+  font-weight: 800;
+  font-size: 3.5rem;
+  background: linear-gradient(to right, #12c2e9,#c471ed,#f64f59);
+  background-size: 200% 200%;
+  animation: rainbow 2s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip:text;
+  color:rgba(0,0,0,1);
+  transition: color .2s ease-in-out;
+}
+
+.header-text:hover {
+  color:rgba(0,0,0,0);
+}
+
+@keyframes rainbow { 
+  0%{background-position:left}
+  50%{background-position:right}
+  100%{background-position:left}
 }
 
 .photo-container {
