@@ -99,6 +99,13 @@
   padding: 0 10px;
 }
 
+.image-title-index {
+  color: #1c1c1c;
+  font-weight: 700;
+  font-size: 1.8rem;
+  padding: 0 10px;
+}
+
 .image-desc {
   color: #2c2c2c;
 }
