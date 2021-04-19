@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700,800;0&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
 
 :root {
   font-family: "Poppins", sans-serif !important;
@@ -188,4 +188,28 @@
 
 .info-button:hover {
   color: #FF0080;
+}
+
+@media (max-width: 500px) {
+
+  .big-text {
+    font-weight: 800;
+    font-size: 5rem;
+    line-height: 85%;
+    padding: 1rem 1rem;
+  }
+
+  .separator {
+    margin: 1rem 0;
+  }
+
+  .sub-header {
+    font-weight: 800;
+    font-size: 2.5rem;
+  }
+
+  .grid {
+    padding: 0.5rem;
+  }
+  
 }
