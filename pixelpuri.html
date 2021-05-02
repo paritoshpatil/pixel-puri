@@ -1,437 +1,374 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pixel Puri</title>
 
-    <link rel="shortcut icon" href="./images/orange heart.ico" type="image/x-icon" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pixel Puri</title>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
+  <link rel="shortcut icon" href="./images/orange heart.ico" type="image/x-icon" />
 
-    <!-- Lightbox for Photo Gallery -->
-    <link rel="stylesheet" href="./lightbox.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="./style.css" />
-  </head>
+  <!-- Lightbox for Photo Gallery -->
+  <link rel="stylesheet" href="./lightbox.min.css" />
 
-  <body>
-    <div class="container mx-auto pd-4 sm:pd">
-      <div id="header">
-        <a href="./index.html">
-          <svg class="w-8 h-8 back-button" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
-        </a> 
-        <a href="">
-          <p class="header-text sub-header">Pixel Puri</p>
-        </a>
+  <link rel="stylesheet" href="./style.css" />
+</head>
 
-        <a href="./pixelinfo.html">
-          <svg class="w-8 h-8 info-button" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>
-        </a>
-      </div>
+<body>
+  <div class="container mx-auto pd-4 sm:pd">
+    <div id="header">
+      <a href="./index.html">
+        <svg class="w-8 h-8 back-button" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+        </svg>
+      </a>
+      <a href="">
+        <p class="header-text sub-header">Pixel Puri</p>
+      </a>
 
-      <div id="grid">
-        <div class="grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-4">
-          <!-- _____________________________________ -->
-          <a
-            href="./images/pixel-images/19 puri.png"
-            data-lightbox="photogrid"
-            data-title="19 Puri"
-          >
-            <div class="photo-container">
-              <img src="./images/pixel-images/19 puri.png" alt="19 Puri" class="image" />
-              <div class="middle">
-                <p class="image-title">19 Puri</p>
-                <br />
-                <p class="image-desc">
-                  I know it doesn't look like it but trust me, I am hugging you
-                  from the back here.
-                </p>
-              </div>
-            </div>
-          </a>
+      <a href="./pixelinfo.html">
+        <svg class="w-8 h-8 info-button" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </a>
+    </div>
 
-          <a
-            href="./images/pixel-images/bapu puri.png"
-            data-lightbox="photogrid"
-            data-title="Bapu Puri"
-          >
-            <div class="photo-container">
-              <img src="./images/pixel-images/bapu puri.png" alt="19 Puri" class="image" />
-              <div class="middle">
-                <p class="image-title">Bapu Puri</p>
-                <br />
-                <p class="image-desc">
-                  The very first photo we ever took together!
-                </p>
-              </div>
-            </div>
-          </a>
-
-          <a
-            href="./images/pixel-images/bed puri.png"
-            data-lightbox="photogrid"
-            data-title="Bed Puri"
-          >
-            <div class="photo-container">
-              <img src="./images/pixel-images/bed puri.png" alt="19 Puri" class="image" />
-              <div class="middle">
-                <p class="image-title">Bed Puri</p>
-                <br />
-                <p class="image-desc">
-                  This is from our very first kiss together haha.
-                </p>
-              </div>
-            </div>
-          </a>
-
-          <a
-            href="./images/pixel-images/christmas puri.png"
-            data-lightbox="photogrid"
-            data-title="Christmas Puri"
-          >
-            <div class="photo-container">
-              <img
-                src="./images/pixel-images/christmas puri.png"
-                alt="19 Puri"
-                class="image"
-              />
-              <div class="middle">
-                <p class="image-title">Christmas Puri</p>
-                <br />
-                <p class="image-desc">
-                  The first ever christmas gifts I ever got were from you,
-                  beleive it or not.
-                </p>
-              </div>
-            </div>
-          </a>
-
+    <div id="grid">
+      <div class="grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-4">
+        <!-- _____________________________________ -->
+        <a href="./images/pixel-images/bapu puri.png" data-lightbox="photogrid" data-title="Bapu Puri">
           <div class="photo-container">
-            <a
-              href="./images/pixel-images/dance puri.png"
-              data-lightbox="photogrid"
-              data-title=" <button class='extra-button'> 
+            <img src="./images/pixel-images/bapu puri.png" alt="19 Puri" class="image" />
+            <div class="middle">
+              <p class="image-title">Bapu Puri</p>
+              <br />
+              <p class="image-desc">
+                The very first photo we ever took together!
+              </p>
+            </div>
+          </div>
+        </a>
+
+        <div class="photo-container">
+          <a href="./images/pixel-images/ganga puri.png" data-lightbox="photogrid" data-title="<button class='extra-button'>
+              <a href='https://youtu.be/SL23JR6W_6c?t=54' target='_blank'> 
+              We couldn't be more like these two.
+              </a> 
+            </button>">
+            <img src="./images/pixel-images/ganga puri.png" alt="19 Puri" class="image" />
+            <div class="middle">
+              <p class="image-title">Ganga Puri</p>
+              <br />
+              <p class="image-desc">Ocean by Anuv Jain.</p>
+            </div>
+          </a>
+        </div>
+
+        <a href="./images/pixel-images/guru puri.png" data-lightbox="photogrid" data-title="Guru Puri">
+          <div class="photo-container">
+            <img src="./images/pixel-images/guru puri.png" alt="19 Puri" class="image" />
+            <div class="middle">
+              <p class="image-title">Guru Puri</p>
+              <br />
+              <p class="image-desc">
+                The way you were the only one I could see in the mass of
+                people at the Gurudwara.
+              </p>
+            </div>
+          </div>
+        </a>
+
+        <a href="./images/pixel-images/bus puri.png" data-lightbox="photogrid" data-title="Bus Puri">
+          <div class="photo-container">
+            <img src="./images/pixel-images/bus puri.png" alt="19 Puri" class="image" />
+            <div class="middle">
+              <p class="image-title">Bus Puri</p>
+              <br />
+              <p class="image-desc">
+                Both our fav moments in one!
+              </p>
+            </div>
+          </div>
+        </a>
+
+        <a href="./images/pixel-images/blood puri.png" data-lightbox="photogrid" data-title="Blood Puri">
+          <div class="photo-container">
+            <img src="./images/pixel-images/blood puri.png" alt="19 Puri" class="image" />
+            <div class="middle">
+              <p class="image-title">Blood Puri</p>
+              <br />
+              <p class="image-desc">
+                Even in this obscure pixelated form, I look peaceful because my head is on your shoulder, see?
+              </p>
+            </div>
+          </div>
+        </a>
+
+        <a href="./images/pixel-images/hritik puri.png" data-lightbox="photogrid" data-title="Hritik Puri">
+          <div class="photo-container">
+            <img src="./images/pixel-images/hritik puri.png" alt="19 Puri" class="image" />
+            <div class="middle">
+              <p class="image-title">Hritik Puri</p>
+              <br />
+              <p class="image-desc">Ta na na nanana Ta na na nananan ...</p>
+            </div>
+          </div>
+        </a>
+
+        <div class="photo-container">
+          <a href="./images/pixel-images/dance puri.png" data-lightbox="photogrid" data-title=" <button class='extra-button'> 
                   <a href='./images/pixel-images/Mars Mission.png' target='_blank'> 
                   I sent us to mars! 
                   </a>
-              </button>"
-            >
-              <img src="./images/pixel-images/dance puri.png" alt="19 Puri" class="image" />
-              <div class="middle">
-                <p class="image-title">Dance Puri</p>
-                <br />
-                <p class="image-desc">
-                  The first time we danced together under the stars.
-                </p>
-              </div>
-            </a>
-          </div>
+              </button>">
+            <img src="./images/pixel-images/dance puri.png" alt="19 Puri" class="image" />
+            <div class="middle">
+              <p class="image-title">Dance Puri</p>
+              <br />
+              <p class="image-desc">
+                The first time we danced together under the stars.
+              </p>
+            </div>
+          </a>
+        </div>
 
+        <a href="./images/pixel-images/food puri.png" data-lightbox="photogrid" data-title="Food Puri">
           <div class="photo-container">
-            <a
-              href="./images/pixel-images/ganga puri.png"
-              data-lightbox="photogrid"
-              data-title="<button class='extra-button'>
-                <a href='https://youtu.be/SL23JR6W_6c?t=54' target='_blank'> 
-                We couldn't be more like these two.
-                </a> 
-              </button>"
-            >
-              <img src="./images/pixel-images/ganga puri.png" alt="19 Puri" class="image" />
-              <div class="middle">
-                <p class="image-title">Ganga Puri</p>
-                <br />
-                <p class="image-desc">Ocean by Anuv Jain.</p>
-              </div>
-            </a>
+            <img src="./images/pixel-images/food puri.png" alt="19 Puri" class="image" />
+            <div class="middle">
+              <p class="image-title">Food Puri</p>
+              <br />
+              <p class="image-desc">
+                You feeding me orange biscuits in bed > anything
+              </p>
+            </div>
           </div>
+        </a>
 
-          <a
-            href="./images/pixel-images/guru puri.png"
-            data-lightbox="photogrid"
-            data-title="Guru Puri"
-          >
-            <div class="photo-container">
-              <img src="./images/pixel-images/guru puri.png" alt="19 Puri" class="image" />
-              <div class="middle">
-                <p class="image-title">Guru Puri</p>
-                <br />
-                <p class="image-desc">
-                  The way you were the only one I could see in the mass of
-                  people at the Gurudwara.
-                </p>
-              </div>
+        <a href="./images/pixel-images/christmas puri.png" data-lightbox="photogrid" data-title="Christmas Puri">
+          <div class="photo-container">
+            <img src="./images/pixel-images/christmas puri.png" alt="19 Puri" class="image" />
+            <div class="middle">
+              <p class="image-title">Christmas Puri</p>
+              <br />
+              <p class="image-desc">
+                The first ever christmas gifts I ever got were from you,
+                beleive it or not.
+              </p>
             </div>
-          </a>
+          </div>
+        </a>
 
-          <a
-            href="./images/pixel-images/hritik puri.png"
-            data-lightbox="photogrid"
-            data-title="Hritik Puri"
-          >
-            <div class="photo-container">
-              <img src="./images/pixel-images/hritik puri.png" alt="19 Puri" class="image" />
-              <div class="middle">
-                <p class="image-title">Hritik Puri</p>
-                <br />
-                <p class="image-desc">Ta na na nanana Ta na na nananan ...</p>
-              </div>
+        <a href="./images/pixel-images/bed puri.png" data-lightbox="photogrid" data-title="Bed Puri">
+          <div class="photo-container">
+            <img src="./images/pixel-images/bed puri.png" alt="19 Puri" class="image" />
+            <div class="middle">
+              <p class="image-title">Bed Puri</p>
+              <br />
+              <p class="image-desc">
+                This is from our very first kiss together haha.
+              </p>
             </div>
-          </a>
+          </div>
+        </a>
 
-          <a
-            href="./images/pixel-images/sunset puri.png"
-            data-lightbox="photogrid"
-            data-title="Sunset Puri"
-          >
-            <div class="photo-container">
-              <img src="./images/pixel-images/sunset puri.png" alt="19 Puri" class="image" />
-              <div class="middle">
-                <p class="image-title">Sunset Puri</p>
-                <br />
-                <p class="image-desc">
-                  Remember how I almost fell down the stairs while doing a nae
-                  nae?
-                </p>
-              </div>
+        <a href="./images/pixel-images/sunset puri.png" data-lightbox="photogrid" data-title="Sunset Puri">
+          <div class="photo-container">
+            <img src="./images/pixel-images/sunset puri.png" alt="19 Puri" class="image" />
+            <div class="middle">
+              <p class="image-title">Sunset Puri</p>
+              <br />
+              <p class="image-desc">
+                Remember how I almost fell down the stairs while doing a nae
+                nae?
+              </p>
             </div>
-          </a>
+          </div>
+        </a>
 
-          <a
-            href="./images/pixel-images/week puri.png"
-            data-lightbox="photogrid"
-            data-title="Week Puri"
-          >
-            <div class="photo-container">
-              <img src="./images/pixel-images/week puri.png" alt="19 Puri" class="image" />
-              <div class="middle">
-                <p class="image-title">Week Puri</p>
-                <br />
-                <p class="image-desc">Purva's ❤</p>
-              </div>
+        <a href="./images/pixel-images/hands puri.png" data-lightbox="photogrid" data-title="Hands Puri">
+          <div class="photo-container">
+            <img src="./images/pixel-images/hands puri.png" alt="19 Puri" class="image" />
+            <div class="middle">
+              <p class="image-title">Hands Puri</p>
+              <br />
+              <p class="image-desc">°3° &emsp; :)</p>
             </div>
-          </a>
+          </div>
+        </a>
 
-          <a
-            href="./images/pixel-images/hands puri.png"
-            data-lightbox="photogrid"
-            data-title="Hands Puri"
-          >
-            <div class="photo-container">
-              <img src="./images/pixel-images/hands puri.png" alt="19 Puri" class="image" />
-              <div class="middle">
-                <p class="image-title">Hands Puri</p>
-                <br />
-                <p class="image-desc">°3° &emsp; :)</p>
-              </div>
+        <a href="./images/pixel-images/valentine puri.png" data-lightbox="photogrid" data-title="Valentine Puri">
+          <div class="photo-container">
+            <img src="./images/pixel-images/valentine puri.png" alt="19 Puri" class="image" />
+            <div class="middle">
+              <p class="image-title">Valentine Puri</p>
+              <br />
+              <p class="image-desc">
+                You know I could say a lot about Valentine's 2020, but the
+                chocolate balls were my fav part (wink-wink; finger gunnnn)
+              </p>
             </div>
-          </a>
+          </div>
+        </a>
 
-          <a
-            href="./images/pixel-images/valentine puri.png"
-            data-lightbox="photogrid"
-            data-title="Valentine Puri"
-          >
-            <div class="photo-container">
-              <img
-                src="./images/pixel-images/valentine puri.png"
-                alt="19 Puri"
-                class="image"
-              />
-              <div class="middle">
-                <p class="image-title">Valentine Puri</p>
-                <br />
-                <p class="image-desc">
-                  You know I could say a lot about Valentine's 2020, but the
-                  chocolate balls were my fav part (wink-wink; finger gunnnn)
-                </p>
-              </div>
+        <a href="./images/pixel-images/19 puri.png" data-lightbox="photogrid" data-title="19 Puri">
+          <div class="photo-container">
+            <img src="./images/pixel-images/19 puri.png" alt="19 Puri" class="image" />
+            <div class="middle">
+              <p class="image-title">19 Puri</p>
+              <br />
+              <p class="image-desc">
+                I know it doesn't look like it but trust me, I am hugging you
+                from the back here.
+              </p>
             </div>
-          </a>
+          </div>
+        </a>
 
-          <a
-            href="./images/pixel-images/food puri.png"
-            data-lightbox="photogrid"
-            data-title="Food Puri"
-          >
-            <div class="photo-container">
-              <img src="./images/pixel-images/food puri.png" alt="19 Puri" class="image" />
-              <div class="middle">
-                <p class="image-title">Food Puri</p>
-                <br />
-                <p class="image-desc">
-                  You feeding me orange biscuits in bed > anything
-                </p>
-              </div>
+        <a href="./images/pixel-images/week puri.png" data-lightbox="photogrid" data-title="Week Puri">
+          <div class="photo-container">
+            <img src="./images/pixel-images/week puri.png" alt="19 Puri" class="image" />
+            <div class="middle">
+              <p class="image-title">Week Puri</p>
+              <br />
+              <p class="image-desc">Purva's ❤</p>
             </div>
-          </a>
+          </div>
+        </a>
 
-          <a
-            href="./images/pixel-images/blood puri.png"
-            data-lightbox="photogrid"
-            data-title="Blood Puri"
-          >
-            <div class="photo-container">
-              <img src="./images/pixel-images/blood puri.png" alt="19 Puri" class="image" />
-              <div class="middle">
-                <p class="image-title">Blood Puri</p>
-                <br />
-                <p class="image-desc">
-                  Even in this obscure pixelated form, I look peaceful because my head is on your shoulder, see?
-                </p>
-              </div>
+
+        <a href="./images/pixel-images/vc puri.png" data-lightbox="photogrid" data-title="VC Puri">
+          <div class="photo-container">
+            <img src="./images/pixel-images/vc puri.png" alt="19 Puri" class="image" />
+            <div class="middle">
+              <p class="image-title">VC Puri</p>
+              <br />
+              <p class="image-desc">
+                Straws in my noseeeee
+              </p>
             </div>
-          </a>
+          </div>
+        </a>
 
-          <a
-            href="./images/pixel-images/vc puri.png"
-            data-lightbox="photogrid"
-            data-title="VC Puri"
-          >
-            <div class="photo-container">
-              <img src="./images/pixel-images/vc puri.png" alt="19 Puri" class="image" />
-              <div class="middle">
-                <p class="image-title">VC Puri</p>
-                <br />
-                <p class="image-desc">
-                  Straws in my noseeeee
-                </p>
-              </div>
-            </div>
-          </a>
-
-          <a
-            href="./images/pixel-images/day out puri.png"
-            data-lightbox="photogrid"
-            data-title="Day Out Puri"
-          >
-            <div class="photo-container">
-              <img src="./images/pixel-images/day out puri.png" alt="19 Puri" class="image" />
-              <div class="middle">
-                <p class="image-title">Day Out Puri</p>
-                <br />
-                <p class="image-desc">
-                  The best date ever, right?!
-                </p>
-              </div>
-            </div>
-          </a>
-
-          <a
-            href="./images/pixel-images/feet puri.png"
-            data-lightbox="photogrid"
-            data-title="<button class='extra-button'>
+        <a href="./images/pixel-images/feet puri.png" data-lightbox="photogrid" data-title="<button class='extra-button'>
               <a href='https://soundcloud.com/parixo/ke-dil-abhi-bhara-nahi' target='_blank'> 
               Abhi na jaao chhod kar ...
               </a> 
             </button>""
           >
-            <div class="photo-container">
-              <img src="./images/pixel-images/feet puri.png" alt="19 Puri" class="image" />
-              <div class="middle">
-                <p class="image-title">Feet Puri</p>
-                <br />
-                <p class="image-desc">
-                  Abhi na jaao chhod kar, ke dil abhi bhara nahi ...
-                </p>
-              </div>
-            </div>
-          </a>
+            <div class=" photo-container">
+          <img src="./images/pixel-images/feet puri.png" alt="19 Puri" class="image" />
+          <div class="middle">
+            <p class="image-title">Feet Puri</p>
+            <br />
+            <p class="image-desc">
+              Abhi na jaao chhod kar, ke dil abhi bhara nahi ...
+            </p>
+          </div>
+      </div>
+      </a>
 
-          <a
-            href="./images/pixel-images/kiss puri.png"
-            data-lightbox="photogrid"
-            data-title="Kiss Puri"
-          >
-            <div class="photo-container">
-              <img src="./images/pixel-images/kiss puri.png" alt="19 Puri" class="image" />
-              <div class="middle">
-                <p class="image-title">Kiss Puri</p>
-                <br />
-                <p class="image-desc">
-                  From the first night we spent together
-                </p>
-              </div>
-            </div>
-          </a>
-
-          <a
-            href="./images/pixel-images/hair puri.png"
-            data-lightbox="photogrid"
-            data-title="Hair Puri"
-          >
-            <div class="photo-container">
-              <img src="./images/pixel-images/hair puri.png" alt="19 Puri" class="image" />
-              <div class="middle">
-                <p class="image-title">Hair Puri</p>
-                <br />
-                <p class="image-desc">
-                  Can't wait for my hair to grow long enough for this hahaha
-                </p>
-              </div>
-            </div>
-          </a>
-
-          <a
-            href="./images/pixel-images/moonlight puri.png"
-            data-lightbox="photogrid"
-            data-title="Moonlight Puri"
-          >
-            <div class="photo-container">
-              <img src="./images/pixel-images/moonlight puri.png" alt="19 Puri" class="image" />
-              <div class="middle">
-                <p class="image-title">Moonlight Puri</p>
-                <br />
-                <p class="image-desc">
-                  Among all the sex and cuddling and the food, us looking out the window listening to music is my favorite moment from January
-                </p>
-              </div>
-            </div>
-          </a>
-
-          <a
-            href="./images/pixel-images/spaghetti puri.png"
-            data-lightbox="photogrid"
-            data-title="Spaghetti Puri"
-          >
-            <div class="photo-container">
-              <img src="./images/pixel-images/spaghetti puri.png" alt="19 Puri" class="image" />
-              <div class="middle">
-                <p class="image-title">Spaghetti Puri</p>
-                <br />
-                <p class="image-desc">
-                  I had to search so many restaurants on Google Maps because I forgot the name "Marz-o-rin" and I needed it for reference images because we had such a nice dinner here and I wanted to get this image right.
-                </p>
-              </div>
-            </div>
-          </a>
-          <!-- _____________________________________ -->
+      <a href="./images/pixel-images/day out puri.png" data-lightbox="photogrid" data-title="<button class='extra-button'>
+        <a href='https://youtu.be/GpeiIk7Z7Bg' target='_blank'> 
+        Aaoge Jam Tum o Saajna ...
+        </a> 
+      </button>"">
+        <div class="photo-container">
+          <img src="./images/pixel-images/day out puri.png" alt="19 Puri" class="image" />
+          <div class="middle">
+            <p class="image-title">Day Out Puri</p>
+            <br />
+            <p class="image-desc">
+              The best date ever, right?!
+            </p>
+          </div>
         </div>
-      </div>
+      </a>
 
-      <div class="footer">
-        <h4>made with ❤ for purva - 2021</h4>
-      </div>
+      <a href="./images/pixel-images/moonlight puri.png" data-lightbox="photogrid" data-title="Moonlight Puri">
+        <div class="photo-container">
+          <img src="./images/pixel-images/moonlight puri.png" alt="19 Puri" class="image" />
+          <div class="middle">
+            <p class="image-title">Moonlight Puri</p>
+            <br />
+            <p class="image-desc">
+              Among all the sex and cuddling and the food, us looking out the window listening to music is my favorite
+              moment from January
+            </p>
+          </div>
+        </div>
+      </a>
+
+      <a href="./images/pixel-images/kiss puri.png" data-lightbox="photogrid" data-title="Kiss Puri">
+        <div class="photo-container">
+          <img src="./images/pixel-images/kiss puri.png" alt="19 Puri" class="image" />
+          <div class="middle">
+            <p class="image-title">Kiss Puri</p>
+            <br />
+            <p class="image-desc">
+              From the first night we spent together
+            </p>
+          </div>
+        </div>
+      </a>
+
+      <a href="./images/pixel-images/spaghetti puri.png" data-lightbox="photogrid" data-title="Spaghetti Puri">
+        <div class="photo-container">
+          <img src="./images/pixel-images/spaghetti puri.png" alt="19 Puri" class="image" />
+          <div class="middle">
+            <p class="image-title">Spaghetti Puri</p>
+            <br />
+            <p class="image-desc">
+              I had to search so many restaurants on Google Maps because I forgot the name "Marz-o-rin" and I needed it
+              for reference images because we had such a nice dinner here and I wanted to get this image right.
+            </p>
+          </div>
+        </div>
+      </a>
+
+      <a href="./images/pixel-images/hair puri.png" data-lightbox="photogrid" data-title="Hair Puri">
+        <div class="photo-container">
+          <img src="./images/pixel-images/hair puri.png" alt="19 Puri" class="image" />
+          <div class="middle">
+            <p class="image-title">Hair Puri</p>
+            <br />
+            <p class="image-desc">
+              Can't wait for my hair to grow long enough for this hahaha
+            </p>
+          </div>
+        </div>
+      </a>
+
+
+
+      <!-- _____________________________________ -->
     </div>
+  </div>
+  </div>
 
-    <!-- Lightbox + JQuery for gallery fx -->
-    <script src="./lightbox-plus-jquery.min.js"></script>
+  <div class="footer">
+    <h4>made with ❤ for purva - 2021</h4>
+  </div>
+  <!-- Lightbox + JQuery for gallery fx -->
+  <script src="./lightbox-plus-jquery.min.js"></script>
 
-    <!-- Lightbox Customization -->
-    <script>
-      lightbox.option({
-        fadeDuration: 300,
-        resizeDuration: 400,
-        imageFadeDuration: 300,
-        alwaysShowNavOnTouchDevices: true,
-        albumLabel: "",
-        disableScrolling: true
-      });
-    </script>
-  </body>
+  <!-- Lightbox Customization -->
+  <script>
+    lightbox.option({
+      fadeDuration: 300,
+      resizeDuration: 400,
+      imageFadeDuration: 300,
+      alwaysShowNavOnTouchDevices: true,
+      albumLabel: "",
+      disableScrolling: true
+    });
+  </script>
+</body>
+
 </html>

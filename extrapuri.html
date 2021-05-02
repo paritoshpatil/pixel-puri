@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Extra Puri</title>
+
+  <link rel="shortcut icon" href="./images/blue heart.ico" type="image/x-icon" />
+
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet" />
+
+  <!-- Lightbox for Photo Gallery -->
+  <link rel="stylesheet" href="./lightbox.min.css" />
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body class="extra-container">
+  <div class="container mx-auto pd-4 sm:pd">
+    <div id="header">
+      <a href="./index.html">
+        <svg class="w-8 h-8 back-button" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+        </svg>
+      </a>
+
+      <a href="">
+        <p class="header-text sub-header">Extra Puri</p>
+      </a>
+
+      <a href="./talesinfo.html">
+        <svg class="w-8 h-8 info-button" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </a>
+    </div>
+
+    <div id="grid">
+      <div class="grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-4">
+        <!-- _____________________________________ -->
+
+        <div class="photo-container">
+          <a href="./images/extra-images/puri hearts.png" data-lightbox="photogrid" data-title="Hearts Puri">
+            <img src="./images/extra-images/puri hearts.png" alt="19 Puri" class="image" />
+            <div class="middle">
+              <p class="image-title">Hearts Puri</p>
+              <br />
+              <p class="image-desc">My heart very happy with yours</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="photo-container">
+          <a href="./images/extra-images/bhumi puri.jpg" data-lightbox="photogrid" data-title="Bhumi Puri">
+            <img src="./images/extra-images/bhumi puri square.png" alt="19 Puri" class="image" />
+            <div class="middle">
+              <p class="image-title">Bhumi Puri</p>
+              <br />
+              <p class="image-desc">I had asked Bhumi to make something for you for your birthday so she made you a flower!</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="photo-container">
+          <a href="./images/extra-images/vampire puri.png" data-lightbox="photogrid" data-title="Vampire Puri">
+            <img src="./images/extra-images/vampire puri.png" alt="19 Puri" class="image" />
+            <div class="middle">
+              <p class="image-title">Vampire Puri</p>
+              <br />
+              <p class="image-desc">I Suck, You Swallow</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="photo-container">
+          <a href="./images/extra-images/Puri Shaadi.jpg" data-lightbox="photogrid" data-title="Puri Shaadi">
+            <img src="./images/extra-images/puri shaadi square.png" alt="19 Puri" class="image" />
+            <div class="middle">
+              <p class="image-title">Puri Shaadi</p>
+              <br />
+              <p class="image-desc">Open to get invited to our wedding NO TAKEBACKS</p>
+            </div>
+          </a>
+        </div>
+        <!-- _____________________________________ -->
+      </div>
+    </div>
+  </div>
+
+  <div class="footer sticky-footer">
+    <h4>made with ❤ for purva - 2021</h4>
+  </div>
+  <!-- Lightbox + JQuery for gallery fx -->
+  <script src="./lightbox-plus-jquery.min.js"></script>
+
+  <!-- Lightbox Customization -->
+  <script>
+    lightbox.option({
+      fadeDuration: 300,
+      resizeDuration: 400,
+      imageFadeDuration: 300,
+      alwaysShowNavOnTouchDevices: true,
+      albumLabel: "",
+      disableScrolling: true
+    });
+  </script>
+</body>
+
+</html>
